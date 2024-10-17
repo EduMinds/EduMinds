@@ -30,7 +30,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[rgb(28,28,29)] text-gray-300 py-10">
+    <footer className="bg-[rgb(28,28,29)] text-gray-300 pt-10 pb-5">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         
         {/* Logo and Description */}
@@ -90,7 +90,7 @@ const Footer = () => {
               placeholder="Enter your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-4 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"
+              className="w-full px-4 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
             />
             <button
               type="submit"
